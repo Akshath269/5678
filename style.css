@@ -1,0 +1,46 @@
+.header{
+    background-color: #ffbf00;
+
+
+}
+.grid{
+    color:#9e4b4b;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 30px; ;
+    margin : 25px;
+
+}
+body{
+    margin: 0px;
+color: #3f6188;
+}
+p,h2{
+    text-align: center;
+}
+a:link{
+
+color:azure
+}
+a:visited{
+    color: white 
+}
+.menu{
+    margin-right: 30px;
+}
+
+.menu {
+    margin-left: 30px;    
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top :50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity : 0;
+}
